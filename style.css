@@ -1,0 +1,97 @@
+.box1{
+  height: 400px;
+  width: 600px;
+  background-color: #ffffff;
+ 
+  border: 1px solid #dddddd;
+  position: absolute;
+  left: 15%;
+  top:20%;
+}
+
+
+
+.box2{
+  height: 200px;
+  width: 200px;
+  
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  position: fixed;
+  right: 15%;
+  top:20%;
+}
+
+.navbar a {
+
+  float: left;
+  display: block;
+  color: #4aaaa5;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+header{
+ overflow: hidden;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-style: solid;
+    border-color:  #cccccc;
+}
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+  width: 650px
+}
+h1,h2,h3,h4,h5,h6{
+  color: #4aaaa5;
+}
+
+
+
+.text{
+  vertical-align: middle;
+  text-align:center;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.ul{
+  text-align:center;
+  float:left;
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+.img{
+  padding: 20px;
+}
+.li{
+   padding-left:10%; background-color:#4aaaa5;
+}
+footer{
+  background-color: #666666;
+    position: fixed;
+     bottom: 0; 
+    width: 100%;
+    height: 8%;
+    border-top: 5px solid #4aaaa5;
+    color: #ffffff;
+    font-size: small;
+  
+}
+a:hover {
+    color:#4aaaa5 ;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+p{
+  color: #777777
+}
